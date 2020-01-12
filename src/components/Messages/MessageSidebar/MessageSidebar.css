@@ -1,0 +1,29 @@
+
+.message-sidebar {
+    position: fixed;
+    top:50px;
+    overflow-y: scroll;
+    height: 100%;
+    width: 25%;
+    min-width: 250px;
+    
+  }
+  
+  .message-sidebar-blocks {
+    display: block;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #FFF;
+    border: 0px ;
+    border-radius: 10px;
+    margin: 1rem;
+    cursor: pointer;
+  } 
+  
+  .message-sidebar-blocks h3, .message-sidebar-blocks h4{
+      margin:0;
+      padding: 0;
+      text-align: left;
+      pointer-events: none;
+    }
+  

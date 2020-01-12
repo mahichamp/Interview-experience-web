@@ -1,0 +1,71 @@
+.experience-block{
+
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(5,1fr);
+    background-color: white;
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1rem;
+    color: black;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10px;
+}
+
+#exp_block_title{
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+}
+
+
+#exp_block_company{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 0;
+}
+
+#role{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    margin: 0;
+}
+
+#exp_block_college{
+    grid-column: 1 / 2;
+    grid-row:  4 / -1;
+    margin: 0;
+    margin-top: 0.5em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experience-block button{
+    grid-row: 1/ -1;
+    grid-column: 4 / -1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; 
+    grid-column: 5 / -1;
+    border-width: 0; 
+    border-radius: 10px;  
+    background-color: rgb(172,172,172);
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    padding: 0;
+    justify-self: end;
+}   

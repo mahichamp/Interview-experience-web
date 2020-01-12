@@ -1,0 +1,12 @@
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 50px;
+    padding: 0 1rem 1rem 1rem;
+    align-items: center;
+
+}
+

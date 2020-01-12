@@ -1,0 +1,111 @@
+
+.sidebar{
+   background-color: rgb(47, 120, 122);
+    width: 30%;
+    max-width: 300px;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top:0;
+    left: 0;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.search{
+    
+    display: flex;
+    background-color:rgb(47, 120, 122);
+    width: 97%;
+    height: 31px;
+    padding: 0.5rem;
+    padding-top:0.8rem;
+    position: sticky;
+    top:48px;
+}
+
+.search input{
+    flex-grow: 1;
+    margin:0 0.2rem;
+    border-width: 0px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+
+.search button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 0.5rem 0 0;
+    cursor: pointer;
+}
+
+
+
+.search img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.company-tags{
+    margin-top:47px;
+    height: 100%;
+    padding: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.company-tags ul{
+
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    padding: 0;
+}
+
+.company-tags ul li{
+    background-color:white;
+    list-style: none;
+    height: 5rem;
+    margin-bottom:0.5rem;
+    border-radius: 10px;
+    
+}
+
+.company-tags ul li button{
+
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border : 5px solid black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.company-tags ul li button:hover{
+    background-color:  #36e014;
+}
+
+.selected{
+    background-color: #36e014 !important;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}

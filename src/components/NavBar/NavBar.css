@@ -1,0 +1,55 @@
+body{
+    background-image: none;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: rgb(47, 120, 122);
+    height: 48px;
+    color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    align-items: center;
+    z-index: 200;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.navbar h1{
+    
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    margin: 0 1em;
+}
+
+
+.navbar button, .navbar a{
+    margin : 0  0.5rem;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar button{
+    margin-top:0.4em;
+    margin-right: 2em;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.navbar a:hover, .navbar button:hover{
+    color: yellow;
+}
+
+.active{
+    color: yellow !important;
+}

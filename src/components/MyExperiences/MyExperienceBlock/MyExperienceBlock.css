@@ -1,0 +1,35 @@
+.my-experience-block{
+    display: flex;
+    background-color: white;
+    height: fit-content;
+    margin-top: 1rem;
+    padding: 1rem;
+    border : 2px solid white;
+    border-radius: 10px;
+    width: 70%;
+    
+}
+.my-experience-block div{
+    order:0;
+    flex-grow: 1;
+}
+.my-experience-block div h1{
+padding:0px;
+margin: 0px;
+}
+.my-experience-block button{
+    margin-right: 1rem;
+    width: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.5rem;
+    border : 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+.my-experience-block button:hover{
+    border: 2px solid black;
+}

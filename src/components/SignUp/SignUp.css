@@ -1,0 +1,81 @@
+.content {
+    padding-top: 5rem;
+    height : fit-content;
+    width : auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content input, .content select{
+    margin-top: 10px;
+    width: 20%;
+    height: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding : 10px;
+    border-width: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.content label{
+    color: red;
+}
+
+
+.content input:focus, .content select:focus{
+    border: 5px solid rgb(21, 111, 141); 
+}
+
+
+
+
+
+.content select{
+    color: gray;
+    width: 21%;
+}
+
+
+
+.content button{
+    color: #FFF;
+    width : 10%;
+    height : 15%;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: rgb(21, 111, 141);
+    outline: none;
+}
+
+.content button:hover{
+    background-color: rgb(98, 172, 197);
+}
+
+#btn-switcher{
+    background:none;
+    width : fit-content;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: black;
+    color:#FFF;
+}
+
+#btn-switcher:hover{
+    color: rgb(21, 111, 141);
+}
+
+
+.hideIt{
+    display: none;
+}
