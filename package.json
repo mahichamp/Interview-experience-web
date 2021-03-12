@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "html2canvas": "^1.0.0-rc.3",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
